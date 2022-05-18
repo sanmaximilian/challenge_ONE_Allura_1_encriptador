@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Oracle ONE Sprint 01</title>
+
+<link rel="stylesheet" href="assets/styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Outfit&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    <div class="content">
+      <div class="left_">
+        <img src="./assets/Logo.svg" alt="">
+      
+        <main class="main_">
+          <section class="form-box">
+            <form action="">
+              <textarea name="input-texto" id="input-texto" cols="30" rows="10" class="intext" placeholder="Ingrese el texto aqui"></textarea>
+                <!-- <input class="text-input intext" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"> -->
+                <br>
+                <label for="input-texto">Solo letras minúsculas, sin acentos</label>
+                <br>
+              <input class="btn" type="button" value="Encriptar" id="btn-encriptar">
+              <input class="btn" type="button" value="Desencriptar" id="btn-desencriptar">
+            </form>
+          </section>
+        
+        </main>
+      </div>
+      
+      <div class="rightInitial"  style="display: none;">
+        <div>
+          <p>Muñeco</p>
+          <h2>Ningun mensaje fue encontrado</h2>
+          <h3>Igrese el texto que desee encriptar o desencriptar</h3>
+        </div>
+      </div>
+
+        <div class="right">
+          <!-- <div class="msg-box" style="display: none;"> -->
+          <div class="msg-box" >
+              <!-- Recordar poner imagen al principio y luego cambiar el contenido por el texto desencriptado -->
+              <h2 id="">Mensaje encriptado:</h2>
+              <textarea class="text-input-salida" type="text" id="msg"> </textarea>
+              <br>
+              <br>
+              <br>
+              <br>
+              <input class="btn" type="button" value="Copiar" id="btn-copy">
+              <br>
+          </div>
+        </div>
+      
+        <!-- <script src="./assets/functions.js"></script>
+        <script src="./assets/copiar-pegar.js"></script> -->
+    </div>
+    
+    
+    
+  </body>
+  <script src="./assets/copiar-pegar.js"></script>
+<script src="./assets/functions.js"></script>
+</html>
